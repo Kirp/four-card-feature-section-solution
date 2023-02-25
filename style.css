@@ -65,7 +65,9 @@ main {
 }
 
 .class-card {
+    position: relative;
     width: 18em;
+    height: 10em;
     background-color: white;
     padding: 1em;
     margin: 1em 0;
@@ -83,7 +85,10 @@ main {
 }
 
 .class-card picture {
-    margin-left: 80%;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+
 }
 
 .class-card img {
@@ -112,9 +117,18 @@ main {
         width: auto;
     }
 
-    .main-text {
+    .main-text p{
         width: 30em;
+        margin: 0 auto;
     }
 
+    .cards-wrapper {
+        display: flex;        
+        align-items: center;
+    }
+
+    .cards-sub-wrapper {
+        margin: 0 1em;
+    }
     
 }
